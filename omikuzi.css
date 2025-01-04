@@ -1,0 +1,87 @@
+.pc_wallpaper {
+    display: flex;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: 1365px;
+    height: 700px;
+}
+
+.phone_wallpaper {
+    display: none;
+    position: fixed;
+
+}
+
+@media (max-width: 480px) {
+    .pc_wallpaper {
+        display: none; /* スマホの場合にPC壁紙を非表示 */
+    }
+
+    .phone_wallpaper {
+        display: flex; /* スマホの場合に携帯壁紙を表示 */
+        
+        top: 0px;
+        left: 0px;
+        
+        width: 375px;
+        height: 670px;
+    }
+}
+
+
+.btn{
+    width: 500px;
+
+    position: fixed;
+    top: 540px;
+    left: 430px;
+    
+    z-index: 1;
+}
+@media (max-width:480px){
+    .btn{
+        width: 300px;
+
+        top: 560px;
+        left: 40px;
+    }
+}
+.back_btn{
+    display: none;
+    width: 500px;
+
+    position: fixed;
+    top: 543px;
+    left: 433px;
+    
+    z-index: 1;
+}
+@media (max-width:480px){
+    .back_btn{
+        width: 300px;
+
+        top: 560px;
+        left: 40px;
+    }
+}
+
+
+.result{
+    position: fixed;
+    top: 80px;
+    left: 460px;
+
+    width: 400px;
+}@media (max-width:480px){
+    .result{
+        width: 350px;
+
+        top: 130px;
+        left: 10px;
+    }
+}
+
+
