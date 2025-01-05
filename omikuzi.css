@@ -27,7 +27,7 @@
         left: 0px;
         
         width: 420px;
-        height: 750px;
+        height: 100vh;
     }
 }
 
@@ -45,7 +45,7 @@
     .btn{
         width: 300px;
 
-        top: 560px;
+        top: 70vh;
         left: 40px;
     }
 }
@@ -63,7 +63,7 @@
     .back_btn{
         width: 300px;
 
-        top: 560px;
+        top: 70vh;
         left: 40px;
     }
 }
